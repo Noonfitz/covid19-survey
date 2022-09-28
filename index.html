@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>COVID-19 survey form</title>
+</head>
+<body>
+    
+</body>
+</html>
+<div class="container">
+    <head class="text-header">
+      <h1 id="title" class="text-tittle">Covid 19 Vaccine Survey Form</h>
+      <h2 id="description" class="text-descrip"><i>Thank you for your input this survey</i></h2></head>
+    
+    
+      <body class="informaion">
+      <form id="survey-form" class="form-control">
+        <div class="form-group">
+          <p>Name</p>
+        <label for="name" 
+               id="name-label">
+             <input
+                    id= "name"
+                    type ="text" required 
+                    class="form-decor"
+                    placeholder =" Enter Your Full Name"></label></div>
+        
+        
+        <div class="form-group">
+          <p>Email</p>
+       <label for="email" 
+              id="email-label">
+              <input id="email" 
+                     type ="email" required 
+                     class="form-decor"
+                     placeholder="Enter Your Email"></label></div>
+        
+        
+        
+        <div class="form-group">
+          <p>Age</p>
+       <label for="number" 
+              id="number-label">
+               <input id="number" 
+                      type="number" required
+                      class="form-decor"
+                      placeholder="Enter Your Age"
+                      mix="100" min="5"></label></div>
+        
+        
+        
+        
+        <div class="form-group">
+        <p>What is your employment status?</p>
+        <select name= "status" id="dropdown" class="form-decor" >
+          <option value="nothing" selected ></option>
+          <option value="Student">Student</option>
+          <option value="Employed">Employed</option>
+          <option value="Self-Employed">Self-Employed</option>
+          <option value="Unemployed">Unemployed</option>
+          <option value="Notlook">Not looking for a job</option>
+          </select></div>
+        
+        
+        <div class="form-group">              
+        <p>Are you planning to get the COVID-19 vaccine?</p>
+        <label for="syes">
+          <input type="radio" id="syes" name="planget"  class= "input-radio">Yes</label><br>
+        <label for="sno">
+          <input type="radio" id="sno" name="planget"  class= "input-radio">No</label><br>
+        <label for="notsure">
+          <input type="radio" id="notsure" name="planget"  class= "input-radio">Not sure yet</label></div>
+    
+    
+    <div class="form-group">
+    <p>Do you have any symptom in the last 14 days?</p>
+    <select name= "Yes-No" id="dropdown" class="form-decor" >
+      <option value="nothing" selected ></option>
+          <option value ="yes">Yes</option>
+          <option value="no">No</option>
+      </select></div>
+    
+    
+    <div class="form-group">
+    <p>What is your COVID-19 vaccination status?</p>
+    <label for="liketo" >
+              <input id="liketo" 
+                     value="liketo"
+                     type ="checkbox" 
+                     class="input-ckbox"
+                     name="vaccinestatus">I would like to receive the vaccine</label><br>
+    <label for="planto">
+              <input id="planto" 
+                     value="planto"
+                     type ="checkbox" 
+                     class="input-ckbox"
+                     name="vaccinestatus">I have not yet received a vaccine but plan to</label><br>
+    <label for="1moder">
+              <input id="1moder" 
+                     value="1moder"
+                     type ="checkbox" 
+                     class="input-ckbox"
+                     name="vaccinestatus">I have received one dose of the Moderna vaccine</label><br>
+    <label for="2moder">
+              <input id="2moder"
+                     value="2moder"
+                     type ="checkbox"
+                     class=" input-ckbox"
+                     name="vaccinestatus">I have received both doses of the Moderna vaccine</label><br>
+    <label for="1pfizer">
+              <input id="1pfizer" 
+                     value="1pfizer"
+                     type ="checkbox" 
+                     class= "input-ckbox"
+                     name="vaccinestatus">I have received one dose of the Pfizer vaccine</label><br>
+    <label for="2pfizer">
+              <input id="2pfizer" 
+                     value="2pfizer"
+                     type ="checkbox"  
+                     class="input-ckbox"
+                     name="vaccinestatus">I have received both doses of the Pfizer vaccine</label><br>
+    <label for="janssen">
+              <input id="janssen" 
+                     value="janssen"
+                     type ="checkbox" 
+                     class=" input-ckbox"
+                     name="vaccinestatus">I have received the Janssen vaccine</label><br>
+    <label for="1astra">
+              <input id="1astra" 
+                     value="1astra"
+                     type ="checkbox" 
+                     class="input-ckbox"
+                     name="vaccinestatus">I have received one dose of the AstraZeneca vaccine</label><br>
+    <label for="2astra">
+              <input id="2astra" 
+                     value="2astra"
+                     type ="checkbox"
+                     class="input-ckbox"
+                     name="vaccinestatus">I have received both doses of the AstraZeneca vaccine</label><br>
+    <label for="noneabove">
+              <input id="nonabove" 
+                     value="nonabove"
+                     type ="checkbox" 
+                     class="input-ckbox"
+                     name="vaccinestatus">I have received doses of a vaccine not listed above</label><br>
+    <label for="donotwant">
+              <input id="donotwant" 
+                     value="donotwant"
+                     type ="checkbox" 
+                     class="input-ckbox"
+                     name="vaccinestatus">I do not want a COVID-19 vaccine</label></div>
+    
+    
+    
+    <div class="form-group">
+    <p>Any comments or suggestions?</p>
+    <textarea id="comment"
+              name="comment"
+              placeholder="Enter your comment here"
+              class="input-textarea"></textarea></div>
+    
+    <div class="form-group">
+      <button type="submit" class="input-summit"><b>Submit</b></botton>
+    </div>   
+      </form>
+      </body>
+      
+    </div>
+      
+    
